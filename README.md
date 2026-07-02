@@ -70,5 +70,11 @@ Most of my work lives at the intersection of **level design and technical design
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=santhoshratnam1&theme=dark&hide_border=true&border_radius=10&ring=e63946&fire=e63946&currStreakLabel=e63946" alt="Streak" />
 </p>
 
+### 🐍 Watch the snake eat my commits
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/santhoshratnam1/santhoshratnam1/output/snake-dark.svg" alt="Snake eating my contribution graph" width="100%"/>
+</p>
+
 <p align="center"><b>🎮 Hiring for Level, Technical, or Game Design in Unreal Engine? Let's connect.</b></p>
 <p align="center"><i>Quest accepted. Ready for the next one.</i></p>
