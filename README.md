@@ -42,7 +42,7 @@ I shipped **Mechanical Fury**, a movement shooter with 20+ enemy types, on **Ste
 
 **Technical** &nbsp;`DataTables` `DataAssets` `Editor Utility Widgets` `Replication / Multiplayer` `Gameplay Ability System` `Prototyping`
 
-**Craft** &nbsp;`Greybox / Metrics Gyms` `Systems &amp; Design Docs` `Blueprint TRACE validation` `Data-driven tuning`
+**Craft** &nbsp;`Greybox / Metrics Gyms` `Systems & Design Docs` `Blueprint TRACE validation` `Data-driven tuning`
 
 ![](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
