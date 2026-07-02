@@ -1,7 +1,7 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,100:e63946&height=200&section=header&text=Shanmuga%20Ratnam%20Sivakumar&fontColor=ffffff&fontSize=40&desc=UE5%20Level%20%C2%B7%20Technical%20%C2%B7%20Game%20Designer&descSize=20&descAlignY=64" width="100%" alt="Santhosh — UE5 Level & Technical Designer"/>
- 
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,100:e63946&height=200&section=header&text=Shanmuga%20Ratnam%20Sivakumar&fontColor=ffffff&fontSize=40&desc=Game%20%C2%B7%20Level%20%C2%B7%20Technical%20Designer%20%E2%80%94%20Unreal%20Engine%205%20%26%20Unity&descSize=18&descAlignY=64" width="100%" alt="Santhosh — Game, Level & Technical Designer"/>
+
 <p align="center">
-  <a href="https://github.com/santhoshratnam1"><img src="https://readme-typing-svg.demolab.com/?font=Press+Start+2P&size=15&color=E63946&center=true&vCenter=true&width=620&lines=Level+Designer;Technical+Designer;Greybox+to+playable;I+make+the+number+go+up" alt="Typing tagline"/></a>
+  <a href="https://github.com/santhoshratnam1"><img src="https://readme-typing-svg.demolab.com/?font=Press+Start+2P&size=15&color=E63946&center=true&vCenter=true&width=640&lines=Level+Designer;Game+Designer;Technical+Designer;Combat+%26+Narrative;Unreal+Engine+5+%26+Unity" alt="Typing tagline"/></a>
 </p>
 
 <p align="center">
@@ -13,33 +13,36 @@
 
 ## 🎮 Player One
 
-I design **playable spaces and the tunable systems behind them** in Unreal Engine 5 — greybox to playable, plus the data-driven Blueprint systems that let a whole team tune a game without ever touching the graph.
+I design fast, **combat-driven levels** and the **systems** behind them — in **Unreal Engine 5** and **Unity**. A Game and Level Designer with 3+ years building combat encounters, verticality-focused layouts, branching content, and the in-engine tools that get a blockout to first playable faster.
 
-Most of my work lives at the intersection of **level design and technical design**: sightline-guided levels, encounter pacing, and self-documenting gameplay systems a designer can retune from data alone. Three years hands-on in Unreal Engine Blueprints.
+I shipped **Mechanical Fury**, a movement shooter with 20+ enemy types, on **Steam** — and a game director reviewed my design work. My range spans **level, game, technical, and narrative design**: levels that read instantly, encounters that pace themselves, and gameplay systems a whole team can retune from data alone.
 
-📂 My [**portfolio**](https://santhoshratnam1.github.io/SanthoshPortfolio/) collects shipped and greybox work · currently shipping a rolling set of focused UE5 pieces · open to **Level / Technical / Game Designer** roles.
+📂 Full projects, videos, and breakdowns on my [**portfolio**](https://santhoshratnam1.github.io/SanthoshPortfolio/) · open to **Game / Level / Technical Designer** roles.
 
 ![](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 ## 🕹️ What I Design
 
 - **🗺️ Level design** — blockout to playable, sightline-guided flow, verticality, encounter pacing, spatial storytelling
+- **⚔️ Combat &amp; encounter design** — enemy composition, cover/sightline authoring, wave &amp; reinforcement pacing, tension curves
+- **📖 Narrative &amp; game design** — branching quests, systems design, game &amp; narrative design docs
 - **⚙️ Technical design** — Blueprint gameplay systems, data-driven content (DataTables / DataAssets), StateTree AI, replication
 - **🧰 Designer tooling** — Editor Utility Widgets &amp; PCG generators, so other designers build and tune without code
-- **🎯 Combat &amp; encounters** — cover/sightline authoring, wave &amp; reinforcement pacing, tension curves
-- **✨ The bar I hold** — self-documenting, clamped, data-driven: a designer should retune my systems from data alone
+- **🎨 UX &amp; prototyping** — fast in-engine prototypes and readable UX, so ideas get tested early, not late
 
 ![](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 ## 🛠️ Design Toolkit
 
-[![Toolkit](https://go-skill-icons.vercel.app/api/icons?i=unreal,blender,py,git,github,vscode&theme=dark&titles=true)](https://github.com/santhoshratnam1)
+[![Toolkit](https://go-skill-icons.vercel.app/api/icons?i=unreal,unity,blender,py,git,github,vscode&theme=dark&titles=true)](https://github.com/santhoshratnam1)
 
-**Engine &amp; Design** &nbsp;`Unreal Engine 5` `Blueprints` `StateTree` `PCG` `Level Blockout` `Encounter Design` `Sightline Guidance`
+**Engines** &nbsp;`Unreal Engine 5` `Unity` `Blueprints` `StateTree` `PCG`
 
-**Technical** &nbsp;`DataTables` `DataAssets` `Editor Utility Widgets` `Replication / Multiplayer` `Gameplay Ability System` `FRandomStream`
+**Design** &nbsp;`Level Blockout` `Combat / Encounter Design` `Narrative Design` `Game Design` `Sightline Guidance` `UX / UI`
 
-**Craft** &nbsp;`Greybox / Metrics Gyms` `Systems Documentation` `Blueprint TRACE validation` `Data-driven tuning`
+**Technical** &nbsp;`DataTables` `DataAssets` `Editor Utility Widgets` `Replication / Multiplayer` `Gameplay Ability System` `Prototyping`
+
+**Craft** &nbsp;`Greybox / Metrics Gyms` `Systems &amp; Design Docs` `Blueprint TRACE validation` `Data-driven tuning`
 
 ![](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
@@ -48,17 +51,19 @@ Most of my work lives at the intersection of **level design and technical design
 | Track | Focus |
 |-------|-------|
 | 🗺️ **Level Design** | Blockout-to-playable levels, sightline guidance, encounter &amp; pacing design |
-| ⚙️ **Technical Design** | Blueprint systems, data-driven content, StateTree AI, server-authoritative multiplayer |
-| 🧰 **Designer Tools** | Editor Utility Widgets, PCG generators — tools other designers can drive |
+| ⚔️ **Combat &amp; Encounters** | Enemy composition, cover/sightlines, wave pacing, tension curves |
+| 📖 **Game &amp; Narrative Design** | Branching quests, systems design, game &amp; narrative design docs |
+| ⚙️ **Technical Design &amp; Tools** | Blueprint systems, data-driven content, StateTree AI, Editor Utility Widgets, PCG |
 | 🎮 **Personal Games** | Long-horizon commercial UE5 projects, built slowly and deliberately |
 
 ![](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 ## 🎯 About Me
 
-- **Shanmuga Ratnam Sivakumar** (Santhosh) — UE5 Level &amp; Technical Designer, three years hands-on in Unreal Engine Blueprints
-- 🌍 Based in **India** · open to remote and relocation for Level / Technical / Game Design roles
-- 🏆 Shipped work includes **Mechanical Fury** · **1st place, BC Game Jam**
+- **Shanmuga Ratnam Sivakumar** (Santhosh) — Game &amp; Level Designer · Technical Designer, working in **Unreal Engine 5 &amp; Unity**, 3+ years hands-on
+- 🚀 Shipped **Mechanical Fury** (movement shooter, 20+ enemy types) on **Steam** · design work reviewed by a game director
+- 🏆 **1st place, BC Game Jam** · range across level, combat, game, and narrative design
+- 🌍 Based in **India** · open to remote and relocation for Game / Level / Technical Design roles
 - 💡 **Tunable over clever** — the best gameplay system is one a designer can retune from data, with the logic legible in the editor
 - 🎥 Full detail, videos, and breakdowns live on my [**portfolio**](https://santhoshratnam1.github.io/SanthoshPortfolio/)
 
@@ -76,5 +81,5 @@ Most of my work lives at the intersection of **level design and technical design
   <img src="https://raw.githubusercontent.com/santhoshratnam1/santhoshratnam1/output/snake-dark.svg" alt="Snake eating my contribution graph" width="100%"/>
 </p>
 
-<p align="center"><b>🎮 Hiring for Level, Technical, or Game Design in Unreal Engine? Let's connect.</b></p>
+<p align="center"><b>🎮 Hiring for Game, Level, or Technical Design? Let's connect.</b></p>
 <p align="center"><i>Quest accepted. Ready for the next one.</i></p>
