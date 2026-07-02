@@ -1,7 +1,7 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,100:e63946&height=200&section=header&text=Shanmuga%20Ratnam%20Sivakumar&fontColor=ffffff&fontSize=40&desc=Game%20%C2%B7%20Level%20%C2%B7%20Technical%20Designer%20%E2%80%94%20Unreal%20Engine%205%20%26%20Unity&descSize=18&descAlignY=64" width="100%" alt="Santhosh — Game, Level & Technical Designer"/>
+<img src="https://raw.githubusercontent.com/santhoshratnam1/santhoshratnam1/main/assets/banner.svg" width="100%" alt="Shanmuga Ratnam Sivakumar — Game, Level & Technical Designer"/>
 
 <p align="center">
-  <a href="https://github.com/santhoshratnam1"><img src="https://readme-typing-svg.demolab.com/?font=Press+Start+2P&size=15&color=E63946&center=true&vCenter=true&width=640&lines=Level+Designer;Game+Designer;Technical+Designer;Combat+%26+Narrative;Unreal+Engine+5+%26+Unity" alt="Typing tagline"/></a>
+  <a href="https://github.com/santhoshratnam1"><img src="https://readme-typing-svg.demolab.com/?font=Orbitron&weight=700&size=20&color=E63946&center=true&vCenter=true&width=640&lines=LEVEL+DESIGNER;GAME+DESIGNER;TECHNICAL+DESIGNER;COMBAT+%26+NARRATIVE;UNREAL+ENGINE+5+%26+UNITY" alt="Typing tagline"/></a>
 </p>
 
 <p align="center">

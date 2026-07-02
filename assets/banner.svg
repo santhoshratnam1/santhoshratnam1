@@ -1,0 +1,53 @@
+<svg width="1280" height="330" viewBox="0 0 1280 330" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Shanmuga Ratnam Sivakumar — Game, Level and Technical Designer">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#080a10"/>
+      <stop offset="45%" stop-color="#1b1018"/>
+      <stop offset="78%" stop-color="#4a1c26"/>
+      <stop offset="100%" stop-color="#88323c"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffe6b8" stop-opacity="0.95"/>
+      <stop offset="28%" stop-color="#ffb877" stop-opacity="0.55"/>
+      <stop offset="60%" stop-color="#e63946" stop-opacity="0.20"/>
+      <stop offset="100%" stop-color="#e63946" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="vig" cx="50%" cy="42%" r="75%">
+      <stop offset="60%" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.55"/>
+    </radialGradient>
+  </defs>
+
+  <!-- sky -->
+  <rect width="1280" height="330" fill="url(#sky)"/>
+
+  <!-- stars -->
+  <g fill="#f4ece0">
+    <circle cx="120" cy="46" r="1.4" opacity="0.7"/>
+    <circle cx="300" cy="30" r="1" opacity="0.5"/>
+    <circle cx="470" cy="60" r="1.3" opacity="0.6"/>
+    <circle cx="980" cy="40" r="1.1" opacity="0.55"/>
+    <circle cx="1140" cy="66" r="1.4" opacity="0.7"/>
+    <circle cx="760" cy="34" r="1" opacity="0.45"/>
+    <circle cx="620" cy="52" r="1" opacity="0.4"/>
+  </g>
+
+  <!-- ember sun -->
+  <circle cx="895" cy="250" r="200" fill="url(#sun)"/>
+  <circle cx="895" cy="250" r="46" fill="#ffcf8f" opacity="0.9"/>
+
+  <!-- far ridge -->
+  <polygon points="0,232 170,168 350,214 520,158 700,208 900,160 1090,212 1280,172 1280,330 0,330" fill="#3c2333" opacity="0.75"/>
+  <!-- mid ridge -->
+  <polygon points="0,268 230,206 440,256 650,196 870,258 1090,206 1280,250 1280,330 0,330" fill="#20121b"/>
+  <!-- near ridge -->
+  <polygon points="0,304 270,238 540,296 800,232 1050,298 1280,244 1280,330 0,330" fill="#0c070c"/>
+
+  <!-- vignette -->
+  <rect width="1280" height="330" fill="url(#vig)"/>
+
+  <!-- title -->
+  <text x="640" y="132" text-anchor="middle" font-family="Georgia, 'Iowan Old Style', 'Times New Roman', serif" font-size="50" font-weight="bold" fill="#f6efe2" letter-spacing="3" style="paint-order:stroke;stroke:#000000;stroke-width:0.6px;stroke-opacity:0.35">SHANMUGA RATNAM SIVAKUMAR</text>
+  <text x="640" y="170" text-anchor="middle" font-family="Georgia, serif" font-size="19" fill="#f0c3a4" letter-spacing="8">GAME &#183; LEVEL &#183; TECHNICAL DESIGNER</text>
+  <text x="640" y="196" text-anchor="middle" font-family="Georgia, serif" font-size="13" fill="#c98d84" letter-spacing="5" opacity="0.9">UNREAL ENGINE 5 &#183; UNITY</text>
+</svg>
