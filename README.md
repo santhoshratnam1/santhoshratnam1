@@ -48,7 +48,7 @@ My [**portfolio**](https://santhoshratnam1.github.io/SanthoshPortfolio/) collect
 
 ## About Me
 
-- **UE5 Level &amp; Technical Designer** with three years hands-on in Unreal Engine Blueprints
+- **Shanmuga Ratnam Sivakumar** (Santhosh) — UE5 Level &amp; Technical Designer, three years hands-on in Unreal Engine Blueprints
 - Based in **India**, open to remote and relocation for Level / Technical / Game Design roles
 - Shipped work includes **Mechanical Fury**; **1st place, BC Game Jam**
 - Believer in **tunable over clever**: the best gameplay system is one a designer can retune from data alone, with the logic legible in the editor
