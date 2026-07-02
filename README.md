@@ -1,5 +1,5 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,100:e63946&height=200&section=header&text=Shanmuga%20Ratnam%20Sivakumar&fontColor=ffffff&fontSize=40&desc=UE5%20Level%20%C2%B7%20Technical%20%C2%B7%20Game%20Designer&descSize=20&descAlignY=64" width="100%" alt="Santhosh — UE5 Level & Technical Designer"/>
-
+ 
 <p align="center">
   <a href="https://github.com/santhoshratnam1"><img src="https://readme-typing-svg.demolab.com/?font=Press+Start+2P&size=15&color=E63946&center=true&vCenter=true&width=620&lines=Level+Designer;Technical+Designer;Greybox+to+playable;I+make+the+number+go+up" alt="Typing tagline"/></a>
 </p>
