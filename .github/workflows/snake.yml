@@ -7,16 +7,21 @@ on:
   push:
     branches: [main]
 
+# least privilege at the workflow level
 permissions:
-  contents: write
+  contents: read
 
 jobs:
   generate:
     runs-on: ubuntu-latest
     timeout-minutes: 5
+    # only this job gets write, and only because the push step needs it
+    permissions:
+      contents: write
     steps:
       - name: Generate snake from contribution graph
-        uses: Platane/snk@v3
+        # pinned to commit SHA (supply-chain hardening); v3
+        uses: Platane/snk@d8f6715049803e982ee5ff501b6b9b7d5deeb09b
         with:
           github_user_name: santhoshratnam1
           outputs: |
@@ -25,7 +30,8 @@ jobs:
             dist/snake.gif?palette=github-dark&color_snake=e63946
 
       - name: Push to output branch
-        uses: crazy-max/ghaction-github-pages@v4
+        # pinned to commit SHA (supply-chain hardening); v4
+        uses: crazy-max/ghaction-github-pages@df5cc2bfa78282ded844b354faee141f06b41865
         with:
           target_branch: output
           build_dir: dist
