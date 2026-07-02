@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/santhoshratnam1/santhoshratnam1/main/assets/banner.svg" width="100%" alt="Shanmuga Ratnam Sivakumar — Game, Level & Technical Designer"/>
+<img src="https://raw.githubusercontent.com/santhoshratnam1/santhoshratnam1/main/assets/banner.svg?v=pixel2" width="100%" alt="Shanmuga Ratnam Sivakumar — Game, Level & Technical Designer"/>
 
 <p align="center">
   <a href="https://github.com/santhoshratnam1"><img src="https://readme-typing-svg.demolab.com/?font=Orbitron&weight=700&size=20&color=E63946&center=true&vCenter=true&width=640&lines=LEVEL+DESIGNER;GAME+DESIGNER;TECHNICAL+DESIGNER;COMBAT+%26+NARRATIVE;UNREAL+ENGINE+5+%26+UNITY" alt="Typing tagline"/></a>
