@@ -18,36 +18,182 @@
     </radialGradient>
   </defs>
 
-  <!-- sky -->
+  <!-- ======================= SCENE ======================= -->
   <rect width="1280" height="330" fill="url(#sky)"/>
 
-  <!-- stars -->
+  <!-- stars (twinkling) -->
   <g fill="#f4ece0">
-    <circle cx="120" cy="46" r="1.4" opacity="0.7"/>
-    <circle cx="300" cy="30" r="1" opacity="0.5"/>
-    <circle cx="470" cy="60" r="1.3" opacity="0.6"/>
-    <circle cx="980" cy="40" r="1.1" opacity="0.55"/>
-    <circle cx="1140" cy="66" r="1.4" opacity="0.7"/>
-    <circle cx="760" cy="34" r="1" opacity="0.45"/>
-    <circle cx="620" cy="52" r="1" opacity="0.4"/>
+    <circle cx="120" cy="46" r="1.4"><animate attributeName="opacity" values="0.7;0.2;0.7" dur="3.1s" repeatCount="indefinite"/></circle>
+    <circle cx="300" cy="30" r="1"><animate attributeName="opacity" values="0.5;0.15;0.5" dur="4.2s" repeatCount="indefinite"/></circle>
+    <circle cx="470" cy="60" r="1.3"><animate attributeName="opacity" values="0.6;0.25;0.6" dur="2.7s" repeatCount="indefinite"/></circle>
+    <circle cx="980" cy="40" r="1.1"><animate attributeName="opacity" values="0.55;0.1;0.55" dur="3.6s" repeatCount="indefinite"/></circle>
+    <circle cx="1140" cy="66" r="1.4"><animate attributeName="opacity" values="0.7;0.3;0.7" dur="2.9s" repeatCount="indefinite"/></circle>
+    <circle cx="760" cy="34" r="1"><animate attributeName="opacity" values="0.45;0.1;0.45" dur="3.8s" repeatCount="indefinite"/></circle>
+    <circle cx="620" cy="52" r="1"><animate attributeName="opacity" values="0.4;0.12;0.4" dur="4.5s" repeatCount="indefinite"/></circle>
   </g>
 
-  <!-- ember sun -->
-  <circle cx="895" cy="250" r="200" fill="url(#sun)"/>
+  <!-- ember sun (breathing) -->
+  <circle cx="895" cy="250" r="200" fill="url(#sun)">
+    <animate attributeName="opacity" values="1;0.82;1" dur="6s" repeatCount="indefinite"/>
+  </circle>
   <circle cx="895" cy="250" r="46" fill="#ffcf8f" opacity="0.9"/>
 
-  <!-- far ridge -->
+  <!-- ridges -->
   <polygon points="0,232 170,168 350,214 520,158 700,208 900,160 1090,212 1280,172 1280,330 0,330" fill="#3c2333" opacity="0.75"/>
-  <!-- mid ridge -->
   <polygon points="0,268 230,206 440,256 650,196 870,258 1090,206 1280,250 1280,330 0,330" fill="#20121b"/>
-  <!-- near ridge -->
   <polygon points="0,304 270,238 540,296 800,232 1050,298 1280,244 1280,330 0,330" fill="#0c070c"/>
+
+  <!-- ======================= PIXEL HEROES (unit=1px grid, scaled 4x) ======================= -->
+  <g shape-rendering="crispEdges">
+
+  <!-- ── THE SURVIVOR (Last of Us homage) — flashlight flicker + idle breath ── -->
+  <g transform="translate(118,214) scale(4)">
+    <g><animateTransform attributeName="transform" type="translate" values="0 0;0 -0.6;0 0" dur="3.4s" repeatCount="indefinite"/>
+      <!-- flashlight beam -->
+      <polygon points="10.5,6.4 22,3.2 22,9.6" fill="#ffe9b0">
+        <animate attributeName="opacity" values="0.28;0.09;0.24;0.05;0.28" dur="3.2s" repeatCount="indefinite"/>
+      </polygon>
+      <!-- hair -->
+      <rect x="3" y="0" width="5" height="1" fill="#3d2b1f"/><rect x="2" y="1" width="7" height="1" fill="#3d2b1f"/>
+      <!-- face -->
+      <rect x="3" y="2" width="5" height="1" fill="#d9a066"/><rect x="6" y="2" width="1" height="1" fill="#241a12"/>
+      <rect x="3" y="3" width="5" height="1" fill="#c88f57"/>
+      <!-- neck -->
+      <rect x="4" y="4" width="3" height="1" fill="#d9a066"/>
+      <!-- backpack + jacket + raised arm w/ flashlight -->
+      <rect x="0" y="5" width="2" height="4" fill="#4a3624"/>
+      <rect x="2" y="5" width="7" height="1" fill="#5a6045"/>
+      <rect x="2" y="6" width="6" height="1" fill="#5a6045"/><rect x="8" y="6" width="1" height="1" fill="#d9a066"/><rect x="9" y="6" width="2" height="1" fill="#6f7378"/>
+      <rect x="2" y="7" width="7" height="1" fill="#5a6045"/>
+      <rect x="2" y="8" width="7" height="1" fill="#50543c"/>
+      <rect x="2" y="9" width="7" height="1" fill="#50543c"/>
+      <!-- jeans -->
+      <rect x="3" y="10" width="2" height="3" fill="#3e4a5a"/><rect x="6" y="10" width="2" height="3" fill="#3e4a5a"/>
+      <!-- boots -->
+      <rect x="2" y="13" width="3" height="1" fill="#241a12"/><rect x="6" y="13" width="3" height="1" fill="#241a12"/>
+    </g>
+  </g>
+
+  <!-- ── THE EXPEDITIONER (Expedition 33 homage) — rapier thrust ── -->
+  <g transform="translate(438,222) scale(4)">
+    <g><animateTransform attributeName="transform" type="translate" values="0 0;0 -0.5;0 0" dur="3.8s" begin="0.6s" repeatCount="indefinite"/>
+      <!-- hair -->
+      <rect x="3" y="0" width="5" height="1" fill="#2b2523"/><rect x="2" y="1" width="6" height="1" fill="#2b2523"/>
+      <!-- face -->
+      <rect x="3" y="2" width="5" height="1" fill="#e0b080"/><rect x="6" y="2" width="1" height="1" fill="#241a12"/>
+      <rect x="3" y="3" width="5" height="1" fill="#d09a68"/>
+      <!-- white collar -->
+      <rect x="3" y="4" width="5" height="1" fill="#e8e2d4"/>
+      <!-- navy coat, right arm is metal (prosthetic homage) -->
+      <rect x="2" y="5" width="6" height="1" fill="#2a3550"/><rect x="8" y="5" width="1" height="1" fill="#8a9099"/>
+      <!-- rapier arm group (thrusts) -->
+      <g>
+        <animateTransform attributeName="transform" type="translate" values="0 0;0 0;5 0;0 0;0 0" keyTimes="0;0.55;0.7;0.85;1" dur="2.8s" repeatCount="indefinite"/>
+        <rect x="8" y="6" width="2" height="1" fill="#8a9099"/>
+        <rect x="10" y="6" width="1" height="1" fill="#c9a227"/>
+        <rect x="11" y="6.3" width="9" height="0.5" fill="#d8dde2"/>
+        <rect x="11" y="6.3" width="9" height="0.5" fill="#ffffff" opacity="0.0">
+          <animate attributeName="opacity" values="0;0;0.8;0;0" keyTimes="0;0.55;0.7;0.85;1" dur="2.8s" repeatCount="indefinite"/>
+        </rect>
+      </g>
+      <rect x="2" y="6" width="6" height="1" fill="#2a3550"/>
+      <rect x="2" y="7" width="7" height="1" fill="#2a3550"/>
+      <!-- gold sash -->
+      <rect x="2" y="8" width="7" height="1" fill="#c9a227"/>
+      <rect x="2" y="9" width="7" height="1" fill="#222c42"/>
+      <!-- trousers -->
+      <rect x="3" y="10" width="2" height="3" fill="#1c2333"/><rect x="6" y="10" width="2" height="3" fill="#1c2333"/>
+      <!-- boots -->
+      <rect x="2" y="13" width="3" height="1" fill="#101318"/><rect x="6" y="13" width="3" height="1" fill="#101318"/>
+    </g>
+  </g>
+
+  <!-- ── THE WAR GOD (God of War homage) — axe throw & recall ── -->
+  <g transform="translate(842,182) scale(4)">
+    <g><animateTransform attributeName="transform" type="translate" values="0 0;0 -0.5;0 0" dur="3s" begin="1.1s" repeatCount="indefinite"/>
+      <!-- bald head + red stripe -->
+      <rect x="3" y="0" width="5" height="1" fill="#e0b080"/>
+      <rect x="3" y="1" width="5" height="1" fill="#e0b080"/><rect x="4" y="1" width="1" height="1" fill="#b3272f"/>
+      <rect x="3" y="2" width="5" height="1" fill="#e0b080"/><rect x="4" y="2" width="1" height="1" fill="#b3272f"/><rect x="6" y="2" width="1" height="1" fill="#241a12"/>
+      <!-- beard -->
+      <rect x="3" y="3" width="5" height="1" fill="#7a4a2b"/>
+      <rect x="4" y="4" width="3" height="1" fill="#7a4a2b"/>
+      <!-- broad shoulders + tattoo -->
+      <rect x="1" y="5" width="9" height="1" fill="#e0b080"/><rect x="1" y="5" width="2" height="1" fill="#b3272f"/>
+      <!-- chest + strap -->
+      <rect x="2" y="6" width="7" height="1" fill="#d9a066"/><rect x="5" y="6" width="1" height="1" fill="#4a3624"/>
+      <rect x="2" y="7" width="7" height="1" fill="#d9a066"/><rect x="4" y="7" width="1" height="1" fill="#4a3624"/>
+      <!-- belt + war kilt -->
+      <rect x="2" y="8" width="7" height="1" fill="#5a3c22"/>
+      <rect x="2" y="9" width="7" height="1" fill="#6b4526"/>
+      <rect x="3" y="10" width="5" height="1" fill="#6b4526"/>
+      <!-- legs + greaves -->
+      <rect x="3" y="11" width="2" height="1" fill="#d9a066"/><rect x="6" y="11" width="2" height="1" fill="#d9a066"/>
+      <rect x="3" y="12" width="2" height="1" fill="#6f7378"/><rect x="6" y="12" width="2" height="1" fill="#6f7378"/>
+      <rect x="2" y="13" width="3" height="1" fill="#241a12"/><rect x="6" y="13" width="3" height="1" fill="#241a12"/>
+      <!-- the axe: thrown, spins, returns -->
+      <g>
+        <animateTransform attributeName="transform" type="translate" values="0 0;16 -4;0 0" keyTimes="0;0.45;1" dur="3.2s" repeatCount="indefinite" calcMode="spline" keySplines="0.3 0 0.7 1;0.3 0 0.7 1"/>
+        <g transform="translate(9.5,6.5)">
+          <g>
+            <animateTransform attributeName="transform" type="rotate" values="0;1080" dur="3.2s" repeatCount="indefinite"/>
+            <rect x="-0.4" y="-3" width="0.8" height="6" fill="#5a3c22"/>
+            <rect x="-2.4" y="-3.6" width="2" height="2.2" fill="#9fb6c4"/>
+            <rect x="-2.4" y="-3.6" width="2" height="2.2" fill="#bfe9ff" opacity="0.5">
+              <animate attributeName="opacity" values="0.5;0.15;0.5" dur="1.6s" repeatCount="indefinite"/>
+            </rect>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+
+  <!-- ── THE MACHINE HUNTER (Horizon homage) — bow shot ── -->
+  <g transform="translate(1058,238) scale(4)">
+    <g><animateTransform attributeName="transform" type="translate" values="0 0;0 -0.5;0 0" dur="3.6s" begin="1.8s" repeatCount="indefinite"/>
+      <!-- big red hair -->
+      <rect x="2" y="0" width="7" height="1" fill="#b3502a"/>
+      <rect x="1" y="1" width="9" height="1" fill="#b3502a"/>
+      <rect x="1" y="2" width="2" height="1" fill="#b3502a"/><rect x="3" y="2" width="4" height="1" fill="#e0b080"/><rect x="5" y="2" width="1" height="1" fill="#241a12"/><rect x="7" y="2" width="3" height="1" fill="#b3502a"/>
+      <rect x="1" y="3" width="2" height="1" fill="#9c4423"/><rect x="3" y="3" width="4" height="1" fill="#d09a68"/><rect x="7" y="3" width="3" height="1" fill="#9c4423"/>
+      <rect x="1" y="4" width="2" height="1" fill="#9c4423"/><rect x="4" y="4" width="3" height="1" fill="#e0b080"/><rect x="8" y="4" width="2" height="1" fill="#9c4423"/>
+      <!-- teal tunic + bow arms -->
+      <rect x="2" y="5" width="6" height="1" fill="#2a6a66"/><rect x="8" y="5" width="2" height="1" fill="#e0b080"/>
+      <rect x="2" y="6" width="5" height="1" fill="#2a6a66"/><rect x="7" y="6" width="2" height="1" fill="#e0b080"/>
+      <rect x="2" y="7" width="6" height="1" fill="#2a6a66"/><rect x="5" y="7" width="3" height="1" fill="#c9a227"/>
+      <rect x="2" y="8" width="6" height="1" fill="#2a6a66"/>
+      <!-- leathers -->
+      <rect x="2" y="9" width="6" height="1" fill="#6b4526"/>
+      <rect x="3" y="10" width="2" height="2" fill="#24504d"/><rect x="6" y="10" width="2" height="2" fill="#24504d"/>
+      <rect x="3" y="12" width="2" height="1" fill="#8a9099"/><rect x="6" y="12" width="2" height="1" fill="#8a9099"/>
+      <rect x="2" y="13" width="3" height="1" fill="#4a3624"/><rect x="6" y="13" width="3" height="1" fill="#4a3624"/>
+      <!-- bow -->
+      <rect x="10" y="2" width="0.7" height="9" fill="#5a3c22"/>
+      <rect x="9.6" y="2" width="1.1" height="0.7" fill="#5a3c22"/>
+      <rect x="9.6" y="10.3" width="1.1" height="0.7" fill="#5a3c22"/>
+      <line x1="10" y1="2.4" x2="10" y2="10.6" stroke="#d8dde2" stroke-width="0.3">
+        <animate attributeName="x1" values="10;9;10;10" keyTimes="0;0.2;0.3;1" dur="2.4s" repeatCount="indefinite"/>
+      </line>
+      <!-- arrow -->
+      <g>
+        <animateTransform attributeName="transform" type="translate" values="0 0;0 0;22 -2;22 -2" keyTimes="0;0.3;0.75;1" dur="2.4s" repeatCount="indefinite"/>
+        <rect x="9" y="6.2" width="3" height="0.5" fill="#e8e2d4">
+          <animate attributeName="opacity" values="1;1;1;0" keyTimes="0;0.3;0.7;0.78" dur="2.4s" repeatCount="indefinite"/>
+        </rect>
+        <rect x="11.6" y="6" width="0.8" height="0.9" fill="#7fd0ff">
+          <animate attributeName="opacity" values="1;1;1;0" keyTimes="0;0.3;0.7;0.78" dur="2.4s" repeatCount="indefinite"/>
+        </rect>
+      </g>
+    </g>
+  </g>
+
+  </g>
 
   <!-- vignette -->
   <rect width="1280" height="330" fill="url(#vig)"/>
 
   <!-- title -->
-  <text x="640" y="132" text-anchor="middle" font-family="Georgia, 'Iowan Old Style', 'Times New Roman', serif" font-size="50" font-weight="bold" fill="#f6efe2" letter-spacing="3" style="paint-order:stroke;stroke:#000000;stroke-width:0.6px;stroke-opacity:0.35">SHANMUGA RATNAM SIVAKUMAR</text>
-  <text x="640" y="170" text-anchor="middle" font-family="Georgia, serif" font-size="19" fill="#f0c3a4" letter-spacing="8">GAME &#183; LEVEL &#183; TECHNICAL DESIGNER</text>
-  <text x="640" y="196" text-anchor="middle" font-family="Georgia, serif" font-size="13" fill="#c98d84" letter-spacing="5" opacity="0.9">UNREAL ENGINE 5 &#183; UNITY</text>
+  <text x="640" y="118" text-anchor="middle" font-family="Georgia, 'Iowan Old Style', 'Times New Roman', serif" font-size="48" font-weight="bold" fill="#f6efe2" letter-spacing="3" style="paint-order:stroke;stroke:#000000;stroke-width:0.6px;stroke-opacity:0.35">SHANMUGA RATNAM SIVAKUMAR</text>
+  <text x="640" y="156" text-anchor="middle" font-family="Georgia, serif" font-size="19" fill="#f0c3a4" letter-spacing="8">GAME &#183; LEVEL &#183; TECHNICAL DESIGNER</text>
+  <text x="640" y="182" text-anchor="middle" font-family="Georgia, serif" font-size="13" fill="#c98d84" letter-spacing="5" opacity="0.9">UNREAL ENGINE 5 &#183; UNITY</text>
 </svg>
